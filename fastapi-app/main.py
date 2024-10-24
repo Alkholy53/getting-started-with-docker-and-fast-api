@@ -3,7 +3,7 @@ import pickle
 from pydantic import BaseModel
 
 # Load your pre-trained model
-model = pickle.load(open(r'modelgc.pkl', 'rb'))
+model = pickle.load(open(r'model/modelgc.pkl', 'rb'))
 
 
 # Create an instance of FastAPI
